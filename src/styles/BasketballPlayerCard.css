@@ -1,0 +1,41 @@
+.player-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+}
+
+.player-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.player-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.player-position {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.player-stats {
+    font-size: 1em;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .player-card {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
